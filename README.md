@@ -163,5 +163,4 @@ _Response:_
 }
 ```
 
-Låt mig veta om du vill att något ska läggas till eller ändras! 😊
 
