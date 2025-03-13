@@ -1,4 +1,5 @@
-const express = require('express');
+// Import express library
+const express = require('express'); 
 const app = express();
 
 // Import routes
