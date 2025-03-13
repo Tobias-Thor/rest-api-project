@@ -12,7 +12,7 @@ This is a simple REST API built with Express.js. It provides basic routes for ha
 - **About Route (`/about`)**: Provides general information about the server.
 
 ### Installation
-1. Ensure you have [Node.js](https://nodejs.org/) installed.
+1. Ensure you have [Node.js](https://nodejs.org/) installed AND ALSO INSTALL THE express.js module
 2. Clone this repository:
    ```sh
    git clone <repository-url>
@@ -23,12 +23,16 @@ This is a simple REST API built with Express.js. It provides basic routes for ha
    ```
 4. Install dependencies:
    ```sh
-   npm install
+   npm install 
+   AND
+   npm install express
    ```
 
 ### Usage
 1. Start the server:
    ```sh
+   npm start
+   OR
    node server.js
    ```
 2. The API will be running at:
@@ -85,6 +89,8 @@ _Response:_
 }
 ```
 
+### Other information
+You can also try out this API with tools such as Insomnia or Postman.
 ---
 
 ## **Svenska**
@@ -93,7 +99,7 @@ _Response:_
 Detta är ett enkelt REST API byggt med Express.js. Det tillhandahåller grundläggande routes för att hantera användarrelaterade förfrågningar och allmän information.
 
 ### Installation
-1. Se till att du har [Node.js](https://nodejs.org/) installerat.
+1. Se till att du har [Node.js](https://nodejs.org/) installerat OCH INSTALLERA ÄVEN express.js modulen
 2. Klona detta repository:
    ```sh
    git clone <repo_url>
@@ -105,12 +111,16 @@ Detta är ett enkelt REST API byggt med Express.js. Det tillhandahåller grundl�
 4. Installera beroenden:
    ```sh
    npm install
+   OCH
+   npm install express
    ```
 
 ### Användning
 1. Starta servern:
    ```sh
    npm start
+   ELLER
+   node server.js
    ```
 2. API:et kommer att köras på:  `http://localhost:3000/`
 
@@ -162,5 +172,8 @@ _Response:_
   "message": "Your POST request has been received!"
 }
 ```
+### Övrig information
+Du kan också testa detta API med verktyg som Insomnia eller Postman.
+
 
 
